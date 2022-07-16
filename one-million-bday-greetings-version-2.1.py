@@ -51,7 +51,7 @@ print('.'*100)
 print()
 
 j=1
-while j<10*6+1:
+while j<10**6+1:
     for ele in greeting_list:
 
         print(ele)
