@@ -25,7 +25,7 @@ def birthday_greetings():
         print()
 
         if i==10**6:
-            print('ONE MILLION TIMES!')
+            print('ONE MILLION WISHES!')
         else:
             print('{} times'.format(i))
         print()
