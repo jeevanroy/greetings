@@ -28,6 +28,10 @@ while i<len(mystr):
     #print(i)
     i+=1
 
+reversed_greeting_list = []
+for ele in greeting_list:
+    reversed_greeting_list = [ele]+reversed_greeting_list
+
 #print(greeting_list)
 print()
 print('.'*100)
@@ -36,8 +40,20 @@ j=1
 while j<10**6+1:
     for ele in greeting_list:
         print(ele)
-        #print(j)
+        if j==10**6:
+            break
         j+=1
+
+    for rele in reversed_greeting_list:
+        print(rele)
+        if j==10**6:
+            break
+        j+=1
+
+        #print(j)
+    if j==10**6:
+        break
+    j+=1
 
 
 
